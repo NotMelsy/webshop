@@ -4,49 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothes</title>
+    <title>Shoes</title>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/Clothing.css">
-    <script src="/JS/Main.js" defer></script>
+    <link rel="stylesheet" href="/CSS/Shoes.css">
+    <script src="/JS/clothing.js" defer></script>
+    <link rel=icon type="img/x-icon" href="/Logo's/Vishy-logo.webp">
 </head>
 <body>
     <main>
-        <section class="inputs">
-            <div>
-                <input id="checkbox-PS5" type="checkbox" class="filter">
-                <label for="checkbox-PS5" class="label">PS5</label>
+
+        <!-- HEADER -->
+        <header class="headerrr">
+            <img class="logo" src="/Logo's/Vishy-logo-slogan.webp" alt=""></a>
+            <div class="headerdiv">
+                <a class="items" href="/HTML/Shoes.html">Shoes</a>
+                <a class="items right" href="/HTML/index.html">Home</a>
             </div>
-            <div>
-                <input id="checkbox-Xbox" type="checkbox" class="filter">
-                <label for="checkbox-Xbox" class="label">Xbox</label>
-            </div>
-            <div>
-                <input id="checkbox-Nintendo" type="checkbox" class="filter">
-                <label for="checkbox-Nintendo" class="label">Nintendo</label>
-            </div>
+        </header>
+    <!-- END HEADER -->
+
+    <div class="drop">
+        <section class="pricefilter">
+            <label for="price-filter">
+                <p class="indicator">
+                <p class="indicator">Prijsindicatie:</p>
+            </label>
+            <select id="price-filter">
+                <option id="prijs--all" value="all">all prizes</option>
+                <option id="prijs--mid" value="1000-2000">200,-</option>
+                <option id="prijs--hoog" value="above-2000">300,-</option>
+            </select>
         </section>
+    </div>
         <ul class="games">
-            <li class="game" data-category="PS5"><img src="img/download.jpg" alt="Jumanji - ps5 cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download (1).jpg" alt="Spiderman Miles Moralis - ps5 cover"></li>
-            <li class="game" data-category="Xbox"><img src="img/550x684.jpg" alt="De sims 4 - xbox cover"></li>
-            <li class="game" data-category="Nintendo"><img src="img/518x840.jpg" alt="super Mario 3D world - Switch cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download.jpg" alt="Jumanji - ps5 cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download (1).jpg" alt="Spiderman Miles Moralis - ps5 cover"></li>
-            <li class="game" data-category="Xbox"><img src="img/550x684.jpg" alt="De sims 4 - xbox cover"></li>
-            <li class="game" data-category="Nintendo"><img src="img/518x840.jpg" alt="super Mario 3D world - Switch cover"></li>            
-            <li class="game" data-category="PS5"><img src="img/download.jpg" alt="Jumanji - ps5 cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download (1).jpg" alt="Spiderman Miles Moralis - ps5 cover"></li>
-            <li class="game" data-category="Xbox"><img src="img/550x684.jpg" alt="De sims 4 - xbox cover"></li>
-            <li class="game" data-category="Nintendo"><img src="img/518x840.jpg" alt="super Mario 3D world - Switch cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download.jpg" alt="Jumanji - ps5 cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download (1).jpg" alt="Spiderman Miles Moralis - ps5 cover"></li>
-            <li class="game" data-category="Xbox"><img src="img/550x684.jpg" alt="De sims 4 - xbox cover"></li>
-            <li class="game" data-category="Nintendo"><img src="img/518x840.jpg" alt="super Mario 3D world - Switch cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download.jpg" alt="Jumanji - ps5 cover"></li>
-            <li class="game" data-category="PS5"><img src="img/download (1).jpg" alt="Spiderman Miles Moralis - ps5 cover"></li>
-            <li class="game" data-category="Xbox"><img src="img/550x684.jpg" alt="De sims 4 - xbox cover"></li>
-            <li class="game" data-category="Nintendo"><img src="img/518x840.jpg" alt="super Mario 3D world - Switch cover"></li>
+            <li class="game" data-category="Air Force 1" data-category-price="3500"><img src="/clothing/10_5_7e265fdf-9aa1-4751-b428-42890b1b86ec.webp" alt="Flared carpenter beige"></li>
+            <li class="game" data-category="Air Force 1" data-category-price="1500"><img src="/clothing/10_5_786ef98d-4e25-4d13-b31b-de4452fcfe77.webp" alt="Vicinity cargo bag"></li>
+            <li class="game" data-category="Air Force 1" data-category-price="1200"><img src="/clothing/10_5_a3d2eaad-3977-4911-b4b9-0716781d72a6.webp" alt="distressed denim"></li>
+            <li class="game" data-category="Air Force 1" data-category-price="2600"><img src="/clothing/darkgreyfrontmultipocketwebside.webp" alt="multipocket cargo grey"></li>
+            <li class="game" data-category="Jordan 1" data-category-price="3500"><img src="/clothing/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC8xMTcwODZfbmF0dXJhbC8xMTcwODZfbmF0dXJhbC0wMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiY.webp" alt="stussy poll ball knit"></li>
+            <li class="game" data-category="Jordan 1" data-category-price="10000"><img src="/clothing/Stussy-Withered-Flower-Tee-White.webp" alt="Stussy withered flower"></li>
+            <li class="game" data-category="Jordan 1" data-category-price="30000"><img src="/clothing/10_5_abd0e1c2-ef67-4338-a7aa-4d0278e51ff1.webp" alt="Vicinity knit"></li>
+            <li class="game" data-category="Jordan 1" data-category-price="1300"><img src="/clothing/10_5_7dd9e507-a201-4d2b-947a-a4dedd7d4483.webp" alt="Vicinity t-shirt"></li>            
+            <li class="game" data-category="Jordan 4" data-category-price="1400"><img src="/clothing/stussy-8-ball-fleece-tiktok-trend-0.webp" alt="Stussy 8 ball fleece"></li>
+            <li class="game" data-category="Jordan 4" data-category-price="1300"><img src="/clothing/https___images.webp" alt="Corteiz shorts"></li>
+            <li class="game" data-category="Jordan 4" data-category-price="2700"><img src="/clothing/Nike-x-Stussy-Sweat-Pant---Grey---_CT4312-063_1_1.webp" alt="Nike x Stussy sweat pants"></li>
+            <li class="game" data-category="Jordan 4" data-category-price="1000"><img src="/clothing/P0_3f4e1143-6c96-4df8-9359-f0876b788d54.webp" alt="Nike x Stussy sweater"></li>
         </ul>
+        <!-- FOOTER -->
+    <footer class="footer">
+        <h2>Contact ons hier</h2>
+        <a class="footertext" href="mailto:info@vishy.com">info@vishy.com</a>
+        <a class="footertext" href="https://api.whatsapp.com/send/?phone=31703766361">31+ 6 34 65 12 98</a>
+        <a class="footertext" href="https://www.google.com/maps/place/Contactweg+36,+1014+AN+Amsterdam/@52.391016,4.8567994,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5e2884124ea7f:0xf2fdbed6bb7875cf!8m2!3d52.391016!4d4.8567994!16s%2Fg%2F11c3q4jpwb?entry=ttu">Contactweg 36</a>
+    </footer>
+    <!-- END FOOTER -->
     </main>
 </body>
 </html>
